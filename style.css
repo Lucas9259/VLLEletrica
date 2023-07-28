@@ -43,7 +43,7 @@ li a {
 
 li {
  display: inline-block;
-  margin: 20px ;
+  margin: 5px ;
   font-size: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  }
@@ -112,7 +112,7 @@ a {
   
   .photo-grid img {
     display: grid;
-    width: 100%;
+    width: 80%;
     height: auto; /* Defina a altura desejada para as imagens */
     object-fit: contain;
     object-fit: cover; /* Para manter a proporção da imagem */
@@ -121,14 +121,7 @@ a {
   }
   
 
-  body{
-    background-color: rgb(20, 20, 20) ;
-    color: #ffffff ;
-    font-family: italic 1.2em "Fira Sans", serif;
-    max-width: 1200px ;
-    margin: 0 auto;
-    padding: 15px ;
-}
+ 
 header{
      display: flex;
      flex-direction: row;
@@ -227,10 +220,11 @@ a {
     bottom: 0;
     left: 0;
     right: 0;
-    width: 100%;
+    width: 90%;
     padding: 20px;
     border-top: 1px solid #f5f0f0;
   }
+
   p a {
     margin-right: 25px; /* Adicione a margem desejada entre os links */
 }
