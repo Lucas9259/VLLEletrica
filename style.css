@@ -1,0 +1,243 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: rgb(20, 20, 20);
+  color: #ffffff;
+  font-family: italic 1.2em "Fira Sans", serif;
+  padding: 20px;
+}
+
+header{
+     display: flex;
+     flex-direction: row;
+     justify-content:  space-between ;
+     align-items: center;
+     margin: 15px;
+
+}
+.video-player {
+  width: 80%;
+  margin-left: 14%;
+  margin-right: 14%
+}
+
+
+#title {
+    flex-direction: column;
+    line-height:  10px;
+    font-family: sans-serif;
+
+}
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+li a {
+    text-decoration: none;
+  }
+
+li {
+ display: inline-block;
+  margin: 20px ;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+  
+ a{
+  color: white ;
+
+}
+a:hover {
+   color: red;
+   transition: 0.3s all;
+ 
+}
+
+
+h1 {
+  font-weight: 200;
+  font-size: 25px ;
+  word-break: break-word;
+  margin-left: 20px; /* Afasta o h1 da borda esquerda */
+  text-align: center; /* Centraliza o h1 na página */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+
+ 
+
+h2{
+    font-size: 40px ;
+    line-height:  10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+span{
+    color:  rgb(236, 127, 38);
+}
+#Contato-btn{
+    border: 2px solid  rgb(231, 97, 97) ;
+    padding: 10px;
+    border-radius: 30px;
+}
+p{
+ line-height: 25px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Contact{
+    color: rgb(249, 249, 253);
+}
+a {
+    text-decoration: none;
+  }
+
+ 
+
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .photo-grid img {
+    display: grid;
+    width: 100%;
+    height: auto; /* Defina a altura desejada para as imagens */
+    object-fit: contain;
+    object-fit: cover; /* Para manter a proporção da imagem */
+    box-shadow: 0 0 5px rgba(60, 117, 240, 0.5);
+    transition: transform 0.3s; /* Transição suave de 0.3 segundos */
+  }
+  
+
+  body{
+    background-color: rgb(20, 20, 20) ;
+    color: #ffffff ;
+    font-family: italic 1.2em "Fira Sans", serif;
+    max-width: 1200px ;
+    margin: 0 auto;
+    padding: 15px ;
+}
+header{
+     display: flex;
+     flex-direction: row;
+     justify-content:  space-between ;
+     align-items: center;
+
+}
+
+#title {
+    flex-direction: column;
+    line-height:  10px;
+    font-family: sans-serif;
+
+}
+
+li a {
+    text-decoration: none;
+  }
+
+li {
+ display: inline-block;
+  margin: 20px ;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+  
+ a{
+  color: white ;
+
+}
+a:hover {
+   color: red;
+   transition: 0.3s all;
+ 
+}
+
+
+h1 {
+    font-weight: 200;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+
+ 
+
+h2{
+    font-size: 40px ;
+    line-height:  10px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+span{
+    color:  rgb(236, 127, 38);
+}
+#Contato-btn{
+    border: 2px solid  rgb(231, 97, 97) ;
+    padding: 10px;
+    border-radius: 30px;
+}
+p{
+ line-height: 38px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Contact{
+    color: rgb(249, 249, 253);
+}
+a {
+    text-decoration: none;
+  }
+
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .photo-grid img {
+    width: 80%;
+    height: 300px; /* Defina a altura desejada para as imagens */
+    object-fit: cover; /* Para manter a proporção da imagem */
+    box-shadow: 0 0 5px rgba(60, 117, 240, 0.5);
+    transition: transform 0.3s; /* Transição suave de 0.3 segundos */
+  }
+  
+  
+
+  .rodape {
+    background-color: rgb(20, 20, 20);
+    position: relative; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px;
+    border-top: 1px solid #f5f0f0;
+  }
+  p a {
+    margin-right: 25px; /* Adicione a margem desejada entre os links */
+}
+
+  
+  
+  
+  
+
+

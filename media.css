@@ -1,0 +1,58 @@
+@media screen and (max-width: 1200px) {
+
+header {
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
+
+li{
+font-size: 15px;
+}
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px; 
+ }
+  
+  header {
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    
+  }
+  
+  footer.rodape {
+    position: static;  
+  }
+  
+  ul {
+    text-align: center;
+    
+  }
+ 
+  .photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 95%;
+    margin-left: 20px;
+  
+  }
+  
+  .photo-grid img {
+    width: 95%;
+    height: auto;
+  }
+}
